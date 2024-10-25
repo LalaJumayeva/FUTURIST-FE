@@ -1,8 +1,6 @@
-import Navbar from "../../Navbar/Navbar";
 import { PowerGlitch } from 'powerglitch';
 import { headerImg } from "../../../assets";
 import { useEffect } from "react";
-import AnimatedCursor from "react-animated-cursor"
 
 function Header() {
     useEffect(() => {
@@ -37,8 +35,6 @@ function Header() {
     }, []);
     return (
         <section className="bg-slate-950 h-screen relative overflow-hidden">
-            <AnimatedCursor />
-            <Navbar />
             <div
                 className="absolute w-[90%] h-[90%] m-auto left-0 right-0 bottom-0 glitch bg-cover bg-center flex-shrink-0"
                 style={{ backgroundImage: `url(${headerImg})` }}

@@ -61,7 +61,7 @@ const Products = [
 
 function Trending() {
     return (
-        <div className="h-full bg-white">
+        <section className="h-full bg-white">
             <div className="flex flex-col justify-center items-center py-16">
                 <p className="text-xl mb-4 font-Montserrat">TRENDING</p>
                 <div className="w-[4rem] border-b-2 border-b-slate-900 " />
@@ -107,7 +107,7 @@ function Trending() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

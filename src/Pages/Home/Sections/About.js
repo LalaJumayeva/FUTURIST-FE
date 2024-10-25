@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="h-full bg-white py-10 px-5 mb-8">
+        <section className="h-full bg-white py-10 px-5 mb-8">
             <div className="flex flex-col justify-center items-center mb-8">
                 <p className="text-2xl font-Montserrat font-bold text-gray-800 mb-2">ABOUT FUTURIST</p>
                 <div className="w-[4rem] border-b-2 border-b-slate-900 mb-4" />
@@ -22,7 +22,7 @@ function About() {
                     Explore our collection and elevate your wardrobe with high-tech apparel that adapts to your modern lifestyle.
                 </p>
             </div>
-        </div>
+        </section>
     );
 }
 

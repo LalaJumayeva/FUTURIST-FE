@@ -4,16 +4,16 @@ import { BsArrowRight } from "react-icons/bs";
 
 function Discounts() {
     return (
-        <div className="h-full bg-white w-full flex flex-col py-4 px-10">
+        <section className="h-full bg-white w-full flex flex-col py-4 px-10">
             <div className="flex flex-row items-end mb-6">
                 <p className="font-Montserrat text-3xl md:text-5xl leading-relaxed md:leading-tight">
                     Access to high-Quality,<br />
                     <span className="font-bold">Eco-Friendly</span> products and <br />
                     <span className="flex items-center">
                         services <BsArrowRight size={35} className="ml-2" />
-                        <div className="text-sm lg:text-2xl bg-slate-900 py-2 px-4 rounded-full ml-4">
-                            <p className="text-slate-300">Contact Us</p>
-                        </div>
+                        <span className="text-sm lg:text-2xl bg-slate-900 py-2 px-4 rounded-full ml-4 text-slate-300">
+                            Contact Us
+                        </span>
                     </span>
                 </p>
             </div>
@@ -52,7 +52,7 @@ function Discounts() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

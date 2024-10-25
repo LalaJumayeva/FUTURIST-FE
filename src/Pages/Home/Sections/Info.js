@@ -5,7 +5,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { deliDagli, infoVideo, manHoddie, womanHoodie2 } from '../../../assets';
+import { deliDagli, infoVideo, manHoddie } from '../../../assets';
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import Marquee from "react-fast-marquee";
 import { FaArrowAltCircleRight } from "react-icons/fa";
