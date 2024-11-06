@@ -18,7 +18,7 @@ const DropdownRadio = ({ setCategory }) => {
             <button
                 id="dropdownRadioButton"
                 onClick={toggleDropdown}
-                className="text-white bg-cyan-600 font-Montserrat hover:bg-cyan-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+                className="text-white bg-slate-700 font-Montserrat hover:bg-slate-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
                 type="button"
             >
                 Categories
