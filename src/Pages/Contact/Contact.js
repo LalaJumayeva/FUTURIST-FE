@@ -7,7 +7,7 @@ function Contact() {
             <div className="absolute top-64 right-96 w-72 h-72 z-0 bg-purple-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
             <section className="h-screen flex flex-row-reverse relative z-10">
                 <div className="w-1/2 pl-64 pr-8 py-16">
-                    <div className="w-full bg-slate-100 h-full rounded-xl py-4 px-6 shadow-lg shadow-indigo-500/50">
+                    <div className="w-full bg-white h-full rounded-xl py-4 px-6 shadow-lg shadow-indigo-500/50">
                         <p className="text-4xl font-Montserrat font-semibold mt-2 text-slate-800">Get In Touch</p>
                         <p className="font-Montserrat text-base mb-6 mt-3">You can reach us anytime</p>
                         <form className="space-y-4">
