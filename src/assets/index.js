@@ -67,8 +67,10 @@ import trouserss3 from './shopImages/trouserss3.png';
 import hoodieSmile from './shopImages/hoodiesmile.png';
 import hoodieSmile1 from './shopImages/hoodiesmile1.png';
 import hoodieSmile2 from './shopImages/hoodiesmile2.png';
+import about from './about.jpg';
 
 export {
+  about,
   headerImg,
   womanHoodie,
   manHoddie,
