@@ -62,9 +62,9 @@ const Navbar = () => {
             <Link to="login" className="relative text-slate-200 hover:text-slate-400 mx-2">
               <MdOutlineAccountCircle size={20} />
             </Link>
-            <a className="relative text-slate-200 hover:text-slate-400 mx-2" href="/">
+            <Link to="/cart" className="relative text-slate-200 hover:text-slate-400 mx-2">
               <MdOutlineShoppingCart size={20} />
-            </a>
+            </Link>
           </div>
         </div>
         <div className={nav ? "fixed z-30 left-0 top-0 w-3/5 h-full bg-slate-800 ease-in-out duration-500 md:hidden" : "fixed left-[-100%] md:hidden"}>
