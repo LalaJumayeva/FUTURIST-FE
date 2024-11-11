@@ -5,10 +5,10 @@ function Contact() {
             <div className="absolute top-10 left-0 w-48 h-48 z-10 bg-blue-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
             <div className="absolute bottom-12 right-96 w-64 h-64 z-0 bg-pink-300 rounded-full filter blur-2xl opacity-50 animate-spinCounterClockwise"></div>
             <div className="absolute top-64 right-96 w-72 h-72 z-0 bg-purple-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
-            <section className="h-screen flex flex-row-reverse relative z-10">
-                <div className="w-1/2 pl-64 pr-8 py-16">
+            <section className="h-full flex flex-col-reverse lg:flex-row-reverse relative z-10">
+                <div className="lg:w-1/2 px-8 sm:px-32 xl:pl-64 lg:pr-8 lg:py-16">
                     <div className="w-full bg-white h-full rounded-xl py-4 px-6 shadow-lg shadow-indigo-500/50">
-                        <p className="text-4xl font-Montserrat font-semibold mt-2 text-slate-800">Get In Touch</p>
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-Montserrat font-semibold mt-2 text-slate-800">Get In Touch</p>
                         <p className="font-Montserrat text-base mb-6 mt-3">You can reach us anytime</p>
                         <form className="space-y-4">
                             <div className="flex space-x-4">
@@ -61,15 +61,15 @@ function Contact() {
                         </p>
                     </div>
                 </div>
-                <div className="w-1/2 p-4 flex items-center flex-col justify-between py-16 pl-8">
+                <div className="lg:w-1/2 flex items-center flex-col justify-between py-16 px-8 lg:pl-8">
                     <div className="flex flex-col">
-                        <p className="text-6xl font-Montserrat font-semibold text-slate-50 mb-6">Contact Us</p>
+                        <p className="text-4xl md:text-5xl font-Montserrat font-semibold text-slate-50 mb-6">Contact Us</p>
                         <p className="text-slate-300 text-lg font-Montserrat mb-4">We’d love to hear from you! Whether you have questions, feedback, or need assistance,
                             our team is here to help. Please fill out the form, and we’ll get back to you as soon as possible.</p>
                         <p className="text-slate-300 text-lg font-Montserrat mb-4">+1 123 456 7890</p>
-                        <p className="text-slate-300 text-lg font-Montserrat">info@futurist.io</p>
+                        <p className="text-slate-300 text-lg font-Montserrat mb-6">info@futurist.io</p>
                     </div>
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-col md:flex-row justify-between">
                         <div className="flex flex-col mr-6">
                             <p className="text-lg font-bold font-Montserrat text-slate-50 mb-6">Customer Support</p>
                             <p className="text-slate-300 text-sm font-Montserrat mb-4">Got a question or running into an issue? Our customer support team is dedicated to making your experience
@@ -87,25 +87,25 @@ function Contact() {
                     </div>
                 </div>
             </section>
-            <section className="flex flex-row items-center pl-8 pt-10 pb-24 relative">
+            <section className="flex flex-col-reverse lg:flex-row lg:items-center lg:pl-8 pt-10 pb-24 relative z-20">
                 <div className="absolute bottom-36 right-16 w-64 h-64 z-0 bg-blue-300 rounded-full filter blur-2xl opacity-50 animate-spinCounterClockwise"></div>
                 <div className="absolute bottom-64 right-8 w-80 h-72 z-0 bg-purple-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
 
-                <div className="google-map-code">
+                <div className="google-map-code flex items-center justify-center relative z-20">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.870558405966!2d-73.9851305845948!3d40.75889537932643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855d5afbbb9%3A0x1f1e6a64cf04cd63!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1587818542745!5m2!1sen!2sus"
-                        width="600"
                         height="450"
                         style={{ border: 0, borderRadius: 10 }}
                         allowFullScreen=""
                         aria-hidden="false"
                         tabIndex="0"
                         title="map"
+                        className="w-full px-8 lg:px-0 lg:w-[600px]"
                     />
                 </div>
-                <div className="text-slate-50 ml-10 relative z-20">
+                <div className="text-slate-50 px-8 lg:px-0 lg:ml-10 my-5 lg:my-0  relative z-20">
                     <p className="text-xl mb-6 font-Montserrat">Our Location</p>
-                    <p className="text-5xl mb-6 font-semibold font-Montserrat">Connecting Near and Far</p>
+                    <p className="text-2xl sm:text-3xl md:text-5xl mb-6 font-semibold font-Montserrat">Connecting Near and Far</p>
 
                     <div>
                         <p className="text-lg mb-4 font-semibold font-Montserrat">Headquarters</p>
