@@ -1,4 +1,3 @@
-import Footer from "../Footer/Footer";
 import About from "./Sections/About";
 import Banner from "./Sections/Banner";
 import Discounts from "./Sections/Discounts";
@@ -17,7 +16,6 @@ function HomeScreen() {
             <Discounts />
             <Banner/>
             <About/>
-            <Footer/>
         </>
     );
 }

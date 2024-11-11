@@ -2,7 +2,7 @@ import { spiritual } from "../../../assets";
 
 function Header() {
     return (
-        <div className="h-[400px] w-full relative bg-slate-800">
+        <div className="h-[450px] w-full relative bg-slate-800 pt-14">
             <div
                 className="absolute bottom-0 right-0 w-full h-full object-cover bg-slate-800 opacity-25 z-10">
             </div>

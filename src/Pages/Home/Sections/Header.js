@@ -42,7 +42,7 @@ function Header() {
             <p className="absolute left-0 right-0 bottom-0 m-auto text-6xl md:text-9xl lg:text-15xl z-10 text-white text-opacity-10 font-Orbitron font-bold text-center">
                 FUTURIST
             </p>
-            <div className="container justify-around h-full max-w-full m-auto">
+            <div className="container justify-around h-full max-w-full m-auto pt-14">
                 <div className="relative z-10 p-8 flex flex-col md:flex-row justify-between h-[90%] items-center md:items-stretch">
                     <div className="flex flex-col md:w-[50%] xl:w-[35%]">
                         <h1 className="text-6xl md:text-8xl font-bold mb-4 text-start font-Oswald text-white animate-slidein opacity-0 [--slidein-delay:500ms]">DIGITAL FASHION IS A NEW CHAPTER</h1>

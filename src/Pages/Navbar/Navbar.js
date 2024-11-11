@@ -15,8 +15,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-slate-800 shadow relative z-30">
-      <div className="container mx-auto px-8 py-3 md:flex md:justify-between md:items-center">
+    <nav className="bg-slate-800 shadow w-full z-30 fixed">
+      <div className="w-full px-8 py-3 md:flex md:justify-between md:items-center">
         <div className="flex justify-between items-center">
           <div className='hidden md:flex'>
             <p className="text-slate-400 text-xl font-Orbitron font-bold md:text-2xl hover:text-gray-700"><Link to="/">FUTURIST</Link></p>

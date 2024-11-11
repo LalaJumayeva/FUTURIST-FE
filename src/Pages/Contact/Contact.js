@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="h-full bg-slate-950 overflow-hidden">
+        <div className="h-full bg-slate-950 overflow-hidden pt-14">
             <div className="absolute top-20 left-28 w-48 h-48 z-10 bg-purple-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
             <div className="absolute top-10 left-0 w-48 h-48 z-10 bg-blue-300 rounded-full filter blur-2xl opacity-60 animate-spinClockwise"></div>
             <div className="absolute bottom-12 right-96 w-64 h-64 z-0 bg-pink-300 rounded-full filter blur-2xl opacity-50 animate-spinCounterClockwise"></div>

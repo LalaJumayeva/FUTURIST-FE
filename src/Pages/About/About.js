@@ -36,7 +36,7 @@ function About() {
     }, []);
 
     return (
-        <div className="h-full bg-slate-50 p-8 text-slate-700 font-Montserrat overflow-hidden">
+        <div className="h-full bg-slate-50 p-8 text-slate-700 font-Montserrat overflow-hidden pt-16">
             <div className="flex flex-col justify-center items-center py-10 px-6 sm:px-12 md:px-20 lg:px-40 xl:px-52 2xl:px-96">
                 <p className="text-2xl mb-4 font-semibold font-Montserrat text-slate-900">ABOUT US</p>
                 <div className="w-[4rem] border-b-2 border-b-slate-900 mb-8" />

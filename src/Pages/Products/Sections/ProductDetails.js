@@ -24,7 +24,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 pt-16">
       <div className="container mx-auto px-16 py-8">
         <div className="flex flex-wrap -mx-4">
           {/* Product Images */}

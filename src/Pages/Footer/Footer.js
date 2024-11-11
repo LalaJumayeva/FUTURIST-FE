@@ -11,7 +11,7 @@ import { FaAppStore } from "react-icons/fa6";
 function Footer() {
     return (
         <div className="bg-slate-800 pb-10">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 py-12 px-28 border-b-slate-500 border-b-2">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 py-12 px-8 border-b-slate-500 border-b-2">
                 <div>
                     <p className="text-slate-400 font-Orbitron font-bold pb-6 text-xl">FUTURIST</p>
                     <p className="text-slate-300 font-Montserrat font-bold pb-4">About</p>
