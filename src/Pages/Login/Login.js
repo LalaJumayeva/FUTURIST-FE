@@ -42,7 +42,7 @@ const Login = () => {
 
         <div className="text-grey-dark mt-6">
           Don't have an account?{' '}
-          <Link to="/register" className="no-underline border-b border-blue text-custom-red" href="/signup">
+          <Link to="/register" className="no-underline border-b border-blue text-custom-red">
             Sign Up
           </Link>
         </div>

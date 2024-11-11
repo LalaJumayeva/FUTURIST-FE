@@ -113,7 +113,7 @@ const SignupForm = () => {
 
         <div className="text-grey-dark">
           Already have an account?{' '}
-          <Link to="/login" className="no-underline border-b border-blue text-custom-red" href="/login">
+          <Link to="/login" className="no-underline border-b border-blue text-custom-red">
             Log in
           </Link>
         </div>

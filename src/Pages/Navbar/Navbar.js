@@ -59,7 +59,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className="flex flex-row justify-center bg-slate-600 p-3 rounded-full">
-          <Link to="login" className="relative text-slate-200 hover:text-slate-400 mx-2" href="/">
+          <Link to="login" className="relative text-slate-200 hover:text-slate-400 mx-2">
               <MdOutlineAccountCircle size={20} />
             </Link>
             <a className="relative text-slate-200 hover:text-slate-400 mx-2" href="/">
