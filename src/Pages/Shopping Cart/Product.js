@@ -20,7 +20,7 @@ const Product = () => (
                                     src={hoodieSmile}
                                     alt="Product"
                                 />
-                                <span className="font-semibold">Product name</span>
+                                <span className="font-semibold min-w-[100px] mr-4">Product name</span>
                             </div>
                         </td>
                         <td className="py-4 px-2">$19.99</td>

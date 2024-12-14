@@ -16,6 +16,7 @@ const ShoppingCart = () => (
                     <Product />
                     <Product />
                     <Product />
+                    <Product />
                 </div>
                 <div className="w-full md:w-[35%] lg:w-1/4">
                     <div className="bg-white rounded-lg shadow-md p-6">
